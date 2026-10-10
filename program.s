@@ -1,6 +1,6 @@
 .intel_syntax noprefix
 .global _start
 _start:
-	mov rdi, 42
+	mov rdi, rsi
 	mov rax, 60
 	syscall
