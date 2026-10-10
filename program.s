@@ -1,3 +1,6 @@
 .intel_syntax noprefix
-mov rax, 60
-syscall
+.global _start
+_start:
+	mov rdi, 42
+	mov rax, 60
+	syscall
